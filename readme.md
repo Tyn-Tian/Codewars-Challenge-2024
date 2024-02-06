@@ -43,7 +43,9 @@ makeNegative(0.12); // return -0.12
 
 - The number can be negative already, in which case no change is required.
 - Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.
+
 ---
+
 - Difficulty: _8 kyu_
 - Tags:
   - Fundamentals
@@ -86,3 +88,22 @@ Complete the method that takes a boolean value and return a **"Yes"** string for
 - Tags:
   - Fundamentals
 - Link: [Convert boolean values to string 'Yes' or 'No'](https://www.codewars.com/kata/53369039d7ab3ac506000467)
+
+### 7. Convert a Number to a String!
+
+We need a function that can transform a number (integer) into a string.
+
+What ways of achieving this do you know?
+
+**Examples (input --> output)**
+```javascript
+123  --> "123"
+999  --> "999"
+-100 --> "-100"
+```
+
+- Difficulty: _8 kyu_
+- Tags:
+  - Strings
+  - Fundamentals
+- Link: [Convert a String to a Number!](https://www.codewars.com/kata/5265326f5fda8eb1160004c8)
