@@ -43,7 +43,7 @@ makeNegative(0.12); // return -0.12
 
 - The number can be negative already, in which case no change is required.
 - Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.
-===
+---
 - Difficulty: _8 kyu_
 - Tags:
   - Fundamentals
@@ -59,6 +59,21 @@ Note: if there is nothing to sum, the sum is default to 0.
 
 - Difficulty: _8 kyu_
 - Tags:
-    - Arrays
-    - Fundamentals
+  - Arrays
+  - Fundamentals
 - Link: [Sum of positive](https://www.codewars.com/kata/5715eaedb436cf5606000381)
+
+### 5. Reversed Strings
+
+Completed the solution so that it reverses the string passed into it.
+
+```javascript
+'world' => 'dlrow'
+'word' => 'drow'
+```
+
+- Difficulty: _8 kyu_
+- Tags:
+  - Strings
+  - Fundamentals
+- Link: [Reversed Strings](https://www.codewars.com/kata/5168bb5dfe9a00b126000018)
