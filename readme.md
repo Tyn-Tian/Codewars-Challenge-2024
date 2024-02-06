@@ -96,6 +96,7 @@ We need a function that can transform a number (integer) into a string.
 What ways of achieving this do you know?
 
 **Examples (input --> output)**
+
 ```javascript
 123  --> "123"
 999  --> "999"
@@ -107,3 +108,15 @@ What ways of achieving this do you know?
   - Strings
   - Fundamentals
 - Link: [Convert a String to a Number!](https://www.codewars.com/kata/5265326f5fda8eb1160004c8)
+
+### 8. Vowel Count
+
+Return the number (count) of vowels in the given string.
+We will consider **a**,**e**,**i**,**o**,**u** as vowels for this Kata (but not **y**).
+The input will only consist of lower case letters and/or spaces.
+
+- Difficulty: _7 kyu_
+- Tags:
+  - Strings
+  - Fundamentals
+- Link: [Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3)
