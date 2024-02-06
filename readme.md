@@ -77,3 +77,12 @@ Completed the solution so that it reverses the string passed into it.
   - Strings
   - Fundamentals
 - Link: [Reversed Strings](https://www.codewars.com/kata/5168bb5dfe9a00b126000018)
+
+### 6. Convert boolean values to strings 'Yes' or 'No'
+
+Complete the method that takes a boolean value and return a **"Yes"** string for **true**, or a **"No"** string for **false**.
+
+- Difficulty: _8 kyu_
+- Tags:
+  - Fundamentals
+- Link: [Convert boolean values to string 'Yes' or 'No'](https://www.codewars.com/kata/53369039d7ab3ac506000467)
