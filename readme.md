@@ -120,3 +120,18 @@ The input will only consist of lower case letters and/or spaces.
   - Strings
   - Fundamentals
 - Link: [Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3)
+
+### 9. Disemvowel Trolls
+
+Troll are attacking your comment section!
+A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.
+Your task is to write a function that takes a string and return a new string with all vowels removed.
+For example the string "This website is for losers LOL!" would become "ths wbst s fr lsrs LL!".
+Note: for this kata **y** isn't considered a vowel.
+
+- Difficulty: _7 kyu_
+- Tags:
+  - Strings
+  - Regular Expressions
+  - Fundamentals
+- Link: [Disemvowel Trolls](https://www.codewars.com/kata/52fba66badcd10859f00097e)
