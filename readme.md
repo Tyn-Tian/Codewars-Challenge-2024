@@ -181,3 +181,17 @@ higAndLow("1 9 3 4 -5"); // return "9 -5"
   - Fundamentals
   - Strings
 - Link: [Highest and Lowest](https://www.codewars.com/kata/554b4ac871d6813a03000035)
+
+### 12. Descending Order
+
+You task is to make a function that can take non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
+
+**Examples:**
+Input: **42145** Output: **54421**
+Input: **145263** Output: **654321**
+Input: **123456789** Output: **987654321**
+
+- Difficulty: _7 kyu_
+- Tags:
+  - Fundamentals
+- Link: [Descending Order](https://www.codewars.com/kata/5467e4d82edf8bbf40000155)
