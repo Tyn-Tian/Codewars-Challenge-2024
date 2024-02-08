@@ -238,3 +238,21 @@ Additionally, if the number is negative, return 0.
   - Mathematics
   - Algorithms
 - Link: [Multiples of 3 or 5](https://www.codewars.com/kata/514b92a657cdc65150000006)
+
+### 15. Stop gninipS My sdroW!
+
+Write a function that takes in a string of one or more words, and return the same string, but with all words that have five or more letters reversed (Just like the name of this Kata). Strings passed in will consist of only letters and spaces, Spaces will be included only when more than word is present.
+
+Examples:
+
+```javascript
+"Hey fellow warriors"  --> "Hey wollef sroirraw" 
+"This is a test        --> "This is a test" 
+"This is another test" --> "This is rehtona test"
+```
+
+- Difficulty: _6 kyu_
+- Tags:
+  - Strings
+  - Algorithms
+- Link: [Stop gninipS My sdroW!](https://www.codewars.com/kata/5264d2b162488dc400000001)
