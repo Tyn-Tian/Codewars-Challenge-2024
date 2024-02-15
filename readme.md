@@ -246,8 +246,8 @@ Write a function that takes in a string of one or more words, and return the sam
 Examples:
 
 ```javascript
-"Hey fellow warriors"  --> "Hey wollef sroirraw" 
-"This is a test        --> "This is a test" 
+"Hey fellow warriors"  --> "Hey wollef sroirraw"
+"This is a test        --> "This is a test"
 "This is another test" --> "This is rehtona test"
 ```
 
@@ -317,3 +317,26 @@ Given **n**, take the sum of the digits of **n**. If that value has more than on
   - Mathematics
   - Algorithms
 - Link: [Sum of Digits / Digital Root](https://codewars.com/kata/541c8630095125aba6000c00)
+
+### 19. Array.diff
+
+Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
+
+It should remove all values from list **a**, which are present in list **b** keeping their order.
+
+```javascript
+arrayDiff([1,2],[1]) == [2]
+```
+
+If a value is present in **b**, all of its occurrences must be removed from the other:
+
+```javascript
+arrayDiff([1,2,2,2,3],[2]) == [1,3]
+```
+
+- Difficulty: _6 kyu_
+- Tags:
+  - Arrays
+  - Fundamentals
+  - Algorithms
+- Link: [Array.diff](https://www.codewars.com/kata/523f5d21c841566fde000009)
