@@ -361,3 +361,19 @@ Don't forget the space after the closing parentheses!
   - Regular Expressions
   - Algorithms
 - Link: [Create Phone Number](https://www.codewars.com/kata/525f50e3b73515a6db000b83)
+
+### 21. Find The Parity Outlier
+
+Your are given an array (which will have a length of at least 3, but could be very large) containing integers. The array is either entirely comprised of odd integers or entirely comprised of even integeres except for a single integer **N**. Write a method that takes the array as an argument and returns this "outlier" **N**.
+
+**Examples**
+```javascript
+[2, 4, 0, 100, 4, 11, 2602, 36] -->  11 (the only odd number)
+
+[160, 3, 1719, 19, 11, 13, -21] --> 160 (the only even number)
+```
+
+- Difficulty: _6 kyu_
+- Tags:
+  - Algorithms
+- Link: [Find The Parity Outlier](https://www.codewars.com/kata/5526fc09a1bbd946250002dc)
