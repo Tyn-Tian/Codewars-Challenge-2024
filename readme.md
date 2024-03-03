@@ -495,3 +495,23 @@ The tests will always use some integral number, so don't worry about that in dyn
   - Fundamentals
   - Mathematics
 - Link: [You're a square!](https://www.codewars.com/kata/54c27a33fb7da0db0100040e)
+
+### 27. Isograms
+
+An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
+
+**Example: (Input-->Ouput)**
+
+"Dermatoglyphics" --> true "aba" --> false "moOse" --> false (ignore letter case)
+
+```javascript
+isIsogram "Dermatoglyphics" = true
+isIsogram "moose" = false
+isIsogram "aba" = false
+```
+
+- Difficulty: _7 kyu_
+- Tags:
+  - Strings
+  - Fundamentals
+- Link: [Isogram](https://www.codewars.com/kata/54ba84be607a92aa900000f1)
