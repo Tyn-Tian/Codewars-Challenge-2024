@@ -411,7 +411,7 @@ The goal of this exercise is to convert a string to a new string where each char
 "din"      =>  "((("
 "recede"   =>  "()()()"
 "Success"  =>  ")())())"
-"(( @"     =>  "))((" 
+"(( @"     =>  "))(("
 ```
 
 **Notes**
@@ -419,8 +419,28 @@ The goal of this exercise is to convert a string to a new string where each char
 Assertion messages may be unclear about what they display in some languages. If you read **"...It Should encode XXX"**, the **"XXX"** is the expected result, not the input!
 
 - Difficulty: _6 kyu_
-- Tags: 
+- Tags:
   - Strings
   - Arrays
   - Fundamentals
 - Link: [Duplicate Encode](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c)
+
+### 24. List Filtering
+
+In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
+
+**Example**
+```javascript
+filter_list([1,2,'a','b']) == [1,2]
+filter_list([1,'a','b',0,15]) == [1,0,15]
+filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
+```
+
+- Difficulty: _7 kyu_
+- Tags: 
+  - Lists
+  - Filtering
+  - Data Structures
+  - Fundamentals
+- Link: [ListFiltering](https://www.codewars.com/kata/53dbd5315a3c69eed20002dd)
+
