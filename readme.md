@@ -444,3 +444,23 @@ filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
   - Fundamentals
 - Link: [ListFiltering](https://www.codewars.com/kata/53dbd5315a3c69eed20002dd)
 
+### 25. Mumbling
+
+This time no story, no theory. The examples below show you how to write function **accum** :
+
+**Examples:**
+```javascript
+accum("abcd") -> "A-Bb-Ccc-Dddd"
+accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+accum("cwAt") -> "C-Ww-Aaa-Tttt"
+```
+
+The parameter of accum is a string which includes only letters from **a..z** and **A..Z**.
+
+- Difficulty: _7 kyu_
+- Tags: 
+  - Fundamentals
+  - Strings
+  - Puzzles
+- Link: [Mumbling](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039)
+
