@@ -515,3 +515,22 @@ isIsogram "aba" = false
   - Strings
   - Fundamentals
 - Link: [Isogram](https://www.codewars.com/kata/54ba84be607a92aa900000f1)
+
+### 28. Exes and Ohs
+
+Check to see if a string has the same amount of 'x's and 'o's. The method must return a boolean and be case insensitive. The string can contain any char.
+
+Examples input/output:
+
+```javascript
+XO("ooxx") => true
+XO("xooxx") => false
+XO("ooxXm") => true
+XO("zpzpzpp") => true // when no 'x' and 'o' is present should return true
+XO("zzoo") => false
+```
+
+- Difficulty: _7 kyu_
+- Tags:
+  - Fundamentals
+- Link: [Exes and Ohs](https://www.codewars.com/kata/55908aad6620c066bc00002a)
