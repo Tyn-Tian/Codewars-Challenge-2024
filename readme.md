@@ -430,14 +430,15 @@ Assertion messages may be unclear about what they display in some languages. If 
 In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
 
 **Example**
+
 ```javascript
-filter_list([1,2,'a','b']) == [1,2]
-filter_list([1,'a','b',0,15]) == [1,0,15]
-filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
+filter_list([1, 2, "a", "b"]) == [1, 2];
+filter_list([1, "a", "b", 0, 15]) == [1, 0, 15];
+filter_list([1, 2, "aasf", "1", "123", 123]) == [1, 2, 123];
 ```
 
 - Difficulty: _7 kyu_
-- Tags: 
+- Tags:
   - Lists
   - Filtering
   - Data Structures
@@ -449,6 +450,7 @@ filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 This time no story, no theory. The examples below show you how to write function **accum** :
 
 **Examples:**
+
 ```javascript
 accum("abcd") -> "A-Bb-Ccc-Dddd"
 accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
@@ -458,7 +460,7 @@ accum("cwAt") -> "C-Ww-Aaa-Tttt"
 The parameter of accum is a string which includes only letters from **a..z** and **A..Z**.
 
 - Difficulty: _7 kyu_
-- Tags: 
+- Tags:
   - Fundamentals
   - Strings
   - Puzzles
@@ -481,6 +483,7 @@ _"In mathematics, a square number or perfect square is an integer that is the sq
 The tests will always use some integral number, so don't worry about that in dynamic typed languages.
 
 **Examples**
+
 ```javascript
 -1  =>  false
  0  =>  true
@@ -545,3 +548,27 @@ String will never be empty and you do not need to account for different data typ
 - Tags:
   - Fundamentals
 - Link: [Shortest Word](https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9)
+
+### 30. Replace With Alphabet Position
+
+Welcome.
+
+In this kata you are required to, given a string, replace every letter with its position in the alphabet.
+
+If anything in the text isn't a letter, ignore it and don't return it.
+
+**"a" = 1**, **"b" = 2**, etc.
+
+**Example**
+
+```javascript
+alphabetPosition("The sunset sets at twelve o' clock.");
+```
+
+Should return **"20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11"** ( as a string )
+
+- Difficulty: _6 kyu_
+- Tags:
+  - Strings
+  - Fundamentals
+- Link: [Replace With Alphabet Position](https://www.codewars.com/kata/546f922b54af40e1e90001da)
