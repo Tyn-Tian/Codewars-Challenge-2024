@@ -572,3 +572,20 @@ Should return **"20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12
   - Strings
   - Fundamentals
 - Link: [Replace With Alphabet Position](https://www.codewars.com/kata/546f922b54af40e1e90001da)
+
+### 31. Presistent Bugger.
+
+Write a function, **persistence**, that takes in a positive parameter **num** and returns its multiplicative persistence, which is the number of times you must multiply the digits in **num** until you reach a single digit.
+
+For example **(Input-->Output)**:
+
+```javascript
+39 --> 3 (because 3*9 = 27, 2*7 = 14, 1*4 = 4 and 4 has only one digit)
+999 --> 4 (because 9*9*9 = 729, 7*2*9 = 126, 1*2*6 = 12, and finally 1*2 = 2)
+4 --> 0 (because 4 is already a one-digit number)
+```
+
+- Difficulty: _6 kyu_
+- Tags:
+  - Fundamentals
+- Link: [Presistent Bugger.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec)
