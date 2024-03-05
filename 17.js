@@ -1,14 +1,16 @@
 function likes(names) {
-    switch (names.length >= 0) {
-        case names.length <= 1:
-            return `${names.length != 0 ? names : 'no one'} likes this`
-        case names.length >= 4:
-            const twoFirstName = names.slice(0, 2)
-            return `${twoFirstName.join(', ')} and ${names.length - 2} others like this`
-        default:
-            const lastName = names.pop()
-            return `${names.join(', ')} and ${lastName} like this`
-    }
+  switch (names.length >= 0) {
+    case names.length <= 1:
+      return `${names.length != 0 ? names : "no one"} likes this`;
+    case names.length >= 4:
+      const twoFirstName = names.slice(0, 2);
+      return `${twoFirstName.join(", ")} and ${
+        names.length - 2
+      } others like this`;
+    default:
+      const lastName = names.pop();
+      return `${names.join(", ")} and ${lastName} like this`;
+  }
 }
 
 // Top Answer sort by Best Practice
@@ -25,6 +27,6 @@ function likes(names) {
 
 console.log(likes([]));
 console.log(likes(["Peters"]));
-console.log(likes(["Peters", 'Jacob']));
-console.log(likes(["Peters", 'Jacob', 'Mark']));
-console.log(likes(['Alex', 'Jacob', 'Mark', 'Max']));
+console.log(likes(["Peters", "Jacob"]));
+console.log(likes(["Peters", "Jacob", "Mark"]));
+console.log(likes(["Alex", "Jacob", "Mark", "Max"]));

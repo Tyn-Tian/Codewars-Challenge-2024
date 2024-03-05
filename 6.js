@@ -1,5 +1,5 @@
 function boolToWord(bool) {
-    return bool ? 'Yes' : 'No';
+  return bool ? "Yes" : "No";
 }
 
 console.log(boolToWord(true));

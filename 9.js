@@ -1,5 +1,8 @@
 function dismvowel(str) {
-    return str.split('').filter(n => !n.match(/[aeiouAEIOU]/)).join('')
+  return str
+    .split("")
+    .filter((n) => !n.match(/[aeiouAEIOU]/))
+    .join("");
 }
 
 // Top Answer sort by Best Practices
@@ -7,4 +10,4 @@ function dismvowel(str) {
 //     return str.replace(/[aeiou]/gi, '');
 // }
 
-console.log(dismvowel("This Website is for losers LOL!"))
+console.log(dismvowel("This Website is for losers LOL!"));
