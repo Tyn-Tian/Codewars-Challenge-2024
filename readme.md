@@ -628,3 +628,20 @@ For example, when an array is passed like **[19, 5, 42, 2, 77]**, the output sho
   - Arrays
   - Fundamentals
 - Link: [Sum of two lowest positive integers](https://www.codewars.com/kata/558fc85d8fd1938afb000014)
+
+### 34. String ends with?
+
+Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
+
+Examples:
+
+```javascript
+solution('abc', 'bc') // returns true
+solution('abc', 'd') // returns false
+```
+
+- Difficulty: _7 kyu_
+- Tags:
+  - Strings
+  - Fundamentals
+- Link: [String ends with?](https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d)
