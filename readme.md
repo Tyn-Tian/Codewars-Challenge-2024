@@ -596,7 +596,7 @@ Usually when you buy something, you're asked whether your credit card number, ph
 
 Your task is to write a function **maskify**, which changes all but the last four characters into **'#'**.
 
-**Examples (input-->output):
+\*\*Examples (input-->output):
 
 ```javascript
 "4556364607935616" --> "############5616"
@@ -636,8 +636,8 @@ Complete the solution so that it returns true if the first argument(string) pass
 Examples:
 
 ```javascript
-solution('abc', 'bc') // returns true
-solution('abc', 'd') // returns false
+solution("abc", "bc"); // returns true
+solution("abc", "d"); // returns false
 ```
 
 - Difficulty: _7 kyu_
@@ -657,3 +657,20 @@ _Example_: The binary representation of 1234 is 10011010010, so the function sho
   - Bits
   - Algorithms
 - Link: [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4)
+
+### 36. Opposite number
+
+Very simple, given a number (integer / decimal / both depending on the language), find its opposite (additive inverse).
+
+Examples:
+
+```javascript
+1: -1
+14: -14
+-34: 34
+```
+
+- Difficulty: _8 kyu_
+- Tags:
+  - Fundamentals
+- Link: [opposite number](https://www.codewars.com/kata/56dec885c54a926dcd001095)
