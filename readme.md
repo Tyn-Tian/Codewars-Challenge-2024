@@ -725,3 +725,26 @@ Write a function that accepts an integer **n** and a string **s** as parameters,
   - Fundamentals
   - Strings
 - Link: [String repeat](https://www.codewars.com/kata/57a0e5c372292dd76d000d7e)
+
+### 41. Complementary DNA
+
+Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms.
+
+If you want to know more: http://en.wikipedia.org/wiki/DNA
+
+In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". Your function receives one side of the DNA (string, except for Haskell); you need to return the other complementary side. DNA strand is never empty or there is no DNA at all (again, except for Haskell).
+
+More similar exercise are found here: http://rosalind.info/problems/list-view/ (source)
+
+Example: (**input --> output**)
+
+```javascript
+"ATTGC" --> "TAACG"
+"GTAT" --> "CATA"
+```
+
+- Difficulty: _7 kyu_
+- Tags:
+  - Strings
+  - Fundamentals
+- Link: [Complementary DNA](https://www.codewars.com/kata/554e4a2f232cdd87d9000038)
