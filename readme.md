@@ -709,3 +709,19 @@ For example, for **[1, 2, 2]** it should return **9** because 1^2 + 2^2 + 2^2 = 
   - Lists
   - Fundamentals
 - Link: [Square(n) Sum](https://www.codewars.com/kata/515e271a311df0350d00000f)
+
+### 40. String repeat
+
+Write a function that accepts an integer **n** and a string **s** as parameters, and returns a string of **s** repeated exactly **n** times.
+
+**Examples (input->output)**
+```javascript
+6, "I"     -> "IIIIII"
+5, "Hello" -> "HelloHelloHelloHelloHello"
+```
+
+- Difficulty: _8 kyu_
+- Tags:
+  - Fundamentals
+  - Strings
+- Link: [String repeat](https://www.codewars.com/kata/57a0e5c372292dd76d000d7e)
