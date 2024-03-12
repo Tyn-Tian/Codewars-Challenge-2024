@@ -803,3 +803,28 @@ You can assume, for the purpose of this kata, that the supplied array will not b
 - Tags: 
   - Fundamentals
 - Link: [Find the smallest integer in the array](https://www.codewars.com/kata/55a2d7ebe362935a210000b2)
+
+### 45. Counting sheep...
+
+Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+
+For example,
+
+```javascript
+[true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true,  true]
+```
+
+The correct answer would be **17**.
+
+Hint: Don't forget to check for bad values like **null/undefined**
+
+- Difficulty: _8 kyu_
+- Tags:
+  - Arrays
+  - Fundamentals
+- Link: [Counting sheep...](https://www.codewars.com/kata/54edbc7200b811e956000556)
