@@ -828,3 +828,22 @@ Hint: Don't forget to check for bad values like **null/undefined**
   - Arrays
   - Fundamentals
 - Link: [Counting sheep...](https://www.codewars.com/kata/54edbc7200b811e956000556)
+
+### 46. Two to One 
+
+Take 2 strings **s1** and **s2** including only letters from **a** to **z**. Return a new sorted string, the longest possible, containing distinct letters - each taken only once - coming from s1 or s2.
+
+**Examples:**
+```javascript
+a = "xyaabbbccccdefww"
+b = "xxxxyyyyabklmopq"
+longest(a, b) -> "abcdefklmopqwxy"
+
+a = "abcdefghijklmnopqrstuvwxyz"
+longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
+```
+
+- Difficulty: _7 kyu_
+- Tags:
+  - Fundamentals
+- Link: [Two to One](https://www.codewars.com/kata/5656b6906de340bd1b0000ac)
