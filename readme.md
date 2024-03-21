@@ -868,3 +868,26 @@ Note: keep the original order of the names in the output.
 - Tags:
   - Fundamentals
 - Link: [Friend or Foe?](https://www.codewars.com/kata/55b42574ff091733d900002f)
+
+### 48. Categorize New Member
+
+The Western Suburbs Croquet Club has two categories of membership, Senior and Open. They would like your help with an application form that will tell prospective members which category they will be placed.
+
+To be a senior, a member must be at least 55 years old and have a handicap greater than 7. In this croquet club, handicaps range from -2 to +26; the better the player the lower the handicap.
+
+**Input**
+Input will consist of a list of pairs. Each pair contains information for a single potential member. Information consists of an integer for the person's age and an integer for the person's handicap.
+
+**Output**
+Output will consist of a list of string values (in Haskell and C: Open or Senior) stating whether the respective member is to be placed in the senior or open category.
+
+**Example**
+```javascript
+input =  [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
+output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
+```
+
+- Difficulty: _7 kyu_
+- Tags:
+  - Fundamentals
+- Link: [Categorize New Member](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa)
