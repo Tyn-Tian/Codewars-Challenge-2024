@@ -800,7 +800,7 @@ For example:
 You can assume, for the purpose of this kata, that the supplied array will not be empty.
 
 - Difficulty: _8 kyu_
-- Tags: 
+- Tags:
   - Fundamentals
 - Link: [Find the smallest integer in the array](https://www.codewars.com/kata/55a2d7ebe362935a210000b2)
 
@@ -811,12 +811,32 @@ Consider an array/list of sheep where some sheep may be missing from their place
 For example,
 
 ```javascript
-[true,  true,  true,  false,
-  true,  true,  true,  true ,
-  true,  false, true,  false,
-  true,  false, false, true ,
-  true,  true,  true,  true ,
-  false, false, true,  true]
+[
+  true,
+  true,
+  true,
+  false,
+  true,
+  true,
+  true,
+  true,
+  true,
+  false,
+  true,
+  false,
+  true,
+  false,
+  false,
+  true,
+  true,
+  true,
+  true,
+  true,
+  false,
+  false,
+  true,
+  true,
+];
 ```
 
 The correct answer would be **17**.
@@ -829,11 +849,12 @@ Hint: Don't forget to check for bad values like **null/undefined**
   - Fundamentals
 - Link: [Counting sheep...](https://www.codewars.com/kata/54edbc7200b811e956000556)
 
-### 46. Two to One 
+### 46. Two to One
 
 Take 2 strings **s1** and **s2** including only letters from **a** to **z**. Return a new sorted string, the longest possible, containing distinct letters - each taken only once - coming from s1 or s2.
 
 **Examples:**
+
 ```javascript
 a = "xyaabbbccccdefww"
 b = "xxxxyyyyabklmopq"
@@ -859,7 +880,7 @@ Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
 i.e.
 
 ```javascript
-friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
+friend[("Ryan", "Kieran", "Mark")]`shouldBe`[("Ryan", "Mark")];
 ```
 
 Note: keep the original order of the names in the output.
@@ -882,12 +903,41 @@ Input will consist of a list of pairs. Each pair contains information for a sing
 Output will consist of a list of string values (in Haskell and C: Open or Senior) stating whether the respective member is to be placed in the senior or open category.
 
 **Example**
+
 ```javascript
-input =  [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
-output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
+input = [
+  [18, 20],
+  [45, 2],
+  [61, 12],
+  [37, 6],
+  [21, 21],
+  [78, 9],
+];
+output = ["Open", "Open", "Senior", "Open", "Open", "Senior"];
 ```
 
 - Difficulty: _7 kyu_
 - Tags:
   - Fundamentals
 - Link: [Categorize New Member](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa)
+
+### 49. Basic Mathematical Operations
+
+Your task is to create a function that does four basic mathematical operations.
+
+The function should take three arguments - operation(string/char), value1(number), value2(number).
+The function should return result of numbers after applying the chosen operation.
+
+**Examples(Operator, value1, value2) --> output**
+```javascript
+('+', 4, 7) --> 11
+('-', 15, 18) --> -3
+('*', 5, 5) --> 25
+('/', 49, 7) --> 7
+```
+
+- Difficulty: _7 kyu_
+- Tags:
+  - Mathematics
+  - Fundamentals
+- Link: [Basic Mathematical Operations](https://www.codewars.com/kata/57356c55867b9b7a60000bd7)
