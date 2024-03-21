@@ -929,6 +929,7 @@ The function should take three arguments - operation(string/char), value1(number
 The function should return result of numbers after applying the chosen operation.
 
 **Examples(Operator, value1, value2) --> output**
+
 ```javascript
 ('+', 4, 7) --> 11
 ('-', 15, 18) --> -3
@@ -941,3 +942,25 @@ The function should return result of numbers after applying the chosen operation
   - Mathematics
   - Fundamentals
 - Link: [Basic Mathematical Operations](https://www.codewars.com/kata/57356c55867b9b7a60000bd7)
+
+### 50. Convert a String to a Number!
+
+We need a function that can transform a string into a number. What ways of achieving this do you know?
+
+Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.
+
+**Examples**
+
+```javascript
+"1234" --> 1234
+"605"  --> 605
+"1405" --> 1405
+"-7" --> -7
+```
+
+- Difficulty: _8 kyu_
+- Tags:
+  - Parsing
+  - Strings
+  - Fundamentals
+- Link: [Convert a String to a Number!](https://www.codewars.com/kata/544675c6f971f7399a000e79)
