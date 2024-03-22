@@ -964,3 +964,28 @@ Note: Don't worry, all inputs will be strings, and every string is a perfectly v
   - Strings
   - Fundamentals
 - Link: [Convert a String to a Number!](https://www.codewars.com/kata/544675c6f971f7399a000e79)
+
+### 51. Beginner Series #3 Sum of Numbers
+
+Given two integers **a** and **b**, which can be positive or negative, find the sum of all the integers between and including them and return it. If the two numbers are equal return **a** or **b**.
+
+**Note**: **a** and **b** are not ordered!
+
+**Examples (a, b) --> output (explanation)**
+
+```javascript
+(1, 0) --> 1 (1 + 0 = 1)
+(1, 2) --> 3 (1 + 2 = 3)
+(0, 1) --> 1 (0 + 1 = 1)
+(1, 1) --> 1 (1 since both are same)
+(-1, 0) --> -1 (-1 + 0 = -1)
+(-1, 2) --> 2 (-1 + 0 + 1 + 2 = 2)
+```
+
+Your function should only return a number, not the explanation about how you get that number.
+
+- Difficulty: _7 kyu_
+- Tags: 
+  - Fundamentals
+  - Algorithms
+- Link: [Beginner Series #3 Sum of Numbers](https://www.codewars.com/kata/55f2b110f61eb01779000053)
